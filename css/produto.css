@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header .content-header {
+    z-index: 5;
+}
+
+#bg-produto {
+    background-image: url(/imagens/Produtos/bg-produto.jpg);
+    background-size: cover;
+    background-position: bottom;
+
+    text-align: center;
+}
+
+#bg-produto #content-produto {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+#bg-produto #content-produto .content-top-produto {
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+}
+
+#bg-produto #content-produto .content-top-produto h1{
+    color: white;
+    font-size: 3rem;
+}
+
+#bg-produto #content-produto .content-top-produto h2 {
+    color: white;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+#bg-produto #content-produto .content-top-produto hr {
+    width: 80px;
+    margin: 5px auto 10px;
+    border: 1px solid white;
+}
+
+#aside-produto {
+    margin: 70px 0;
+}
+
+#aside-produto .produtos .imagens-produtos {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#aside-produto .produtos .imagens-produtos .fotos-produtos {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+#aside-produto .produtos .imagens-produtos .fotos-produtos .text-image {
+    width: 40vw;
+    text-align: center;
+}
+
+#aside-produto .produtos .imagens-produtos .fotos-produtos .text-image h4 {
+    font-size: 1.5rem;
+    color: rgb(100, 100, 100);
+}
+
+#aside-produto .produtos .imagens-produtos .fotos-produtos .text-image p {
+    text-align: start;
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+#aside-produto .produtos .imagens-produtos .fotos-produtos .image1, 
+.image2, 
+.image3 {
+    width: 400px;
+    height: 600px;
+}
+
+#aside-produto .produtos .imagens-produtos .fotos-produtos .image1 {
+    background-image: url('/imagens/Produtos/img1.jpg');
+    background-size: cover;
+    margin-left: 20px;
+}
+
+#aside-produto .produtos .imagens-produtos .fotos-produtos .image2 {
+    background-image: url('/imagens/Produtos/img2.jpg');
+    background-size: cover;
+    margin-right: 20px;
+}
+
+#aside-produto .produtos .imagens-produtos .fotos-produtos .image3 {
+    background-image: url('/imagens/Produtos/img3.jpg');
+    background-size: cover;
+    margin-left: 20px;
+}
+
+#aside-produto .orcamento { 
+    width: 100vw;
+    margin-top: 80px;
+    background-color: #000000f1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#aside-produto .orcamento .content-orcamento {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+}
+
+#aside-produto .orcamento .title-orcamento {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#aside-produto .orcamento .title-orcamento p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#aside-produto .orcamento .title-orcamento hr {
+    width: 50px;
+    margin: 10px auto;
+}
+
+#aside-produto .orcamento form {
+    display: flex;
+    flex-direction: column;
+    
+    color: white;
+}
+
+#aside-produto .orcamento form label {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 10px 0 5px 0;
+}
+
+#aside-produto .orcamento form input {
+    width: 500px;
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    outline: none;
+    font-weight: 300;
+}
+
+#aside-produto .orcamento form textarea {
+    width: 500px;
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    outline: none;
+    font-weight: 300;
+}
+
+#aside-produto .orcamento form #button {
+    width: 100px;
+    padding: 7px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 15px 0 30px 0;
+    color: black;
+    background-color: white;
+}
+
+#aside-produto .orcamento form #button:hover {
+    background-color: #ff5757;
+    transition: .3s;
+    color: white;
+}
+
+footer {
+    margin-top: -70px;
+    z-index: 2;
+}

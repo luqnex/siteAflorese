@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aflore-se Lingerie</title>
+    <link rel="shortcut icon" href="/imagens/Home/logo.svg" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/contato.css">
+
+    <script src="/Javascript/javascript.js"></script>
+</head>
+
+<body>
+    <div class="logo-link-whats">
+        <a target="_blank" href="http://api.whatsapp.com/send?phone=553536232253"><img src="./imagens/Home/whatsapp-logo-1.png" alt=""></a>
+    </div>
+    <div class="content">
+        <header>
+            <div class="content-header">
+                <div class="content-logo">
+                    <a href="index.html"><img src="/imagens/Home/logo.svg" alt="Logo Aflore-se"></a>
+                    <div class="text">
+                        <a href="index.html"><h3>Aflore-se</h3></a>
+                        <a href="index.html"><p>LINGERIE</p></a>
+                        <hr>
+                    </div>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="produto.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <main id="bg-contato">
+            <div class="content-black"></div>
+            <div id="content-main-contato">
+                <div class="content-top-contato">
+                    <h1>CONTATO</h1>
+                    <hr>
+                    <h2>Tire as suas dúvidas com a gente</h2>
+                </div>
+            </div>
+        </main>
+
+        <aside id="aside-contato">
+            <div class="container-aside">
+                <h4>Entre em contato</h4>
+                <hr>
+                <div class="formulario-contato">
+                    <div class="form">
+                        <form method="POST" action="https://api.staticforms.xyz/submit">
+                            <input type="hidden" name="accessKey" value="883483eb-75e1-4613-88f4-706ee4867c73">
+                            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/contato.html">
+                            
+                            <label for="name">Nome</label>
+                            <input type="text" name="name" id="name" placeholder="Digite seu nome">
+    
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email" placeholder="Digite seu melhor email">
+    
+                            <label for="message">Mensagem</label>
+                            <textarea name="message" id="message" rows="10" placeholder="Digite sua mensagem"></textarea>
+                            
+                            <input id="button" type="submit" value="Enviar">
+                        </form>
+                    </div>
+    
+                    <div class="contato-social">
+                        <div class="dados-social">
+                            <h5>Dados</h5>
+                            <a target="_blank" href="http://api.whatsapp.com/send?phone=553536232253" onclick="alerta()"><p class="margin-top">(35) 3623-2253</p></a>
+                            <p class="margin-top">Itajubá - MG - Brasil</p>
+                            
+                        </div>
+                        <div class="logo-social-media">
+                            <h5>Redes Sociais</h5>
+                            <img src="/imagens/Contato/facebook.png" alt="Logo do Facebook">
+                            <img src="/imagens/Contato/instagram.png" alt="Logo do Instagram">
+                            <img src="/imagens/Contato/whatsapp.png" alt="Logo do Whatsapp">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <footer>
+            <div class="content-footer">
+                <div class="inspiracao">
+                    <div class="text-inspiracao">
+                        <h3>INSPIRAÇÃO</h3>
+                        <hr>
+                    </div>
+                    <p>
+                        "Você tem o poder de ser extraordinária todos os dias.
+                        Coloque uma lingerie maravilhosa e se jogue!"
+                    </p>
+                </div>
+    
+                <div class="contato">
+                    <div class="text-contato">
+                        <h3>CONTATO</h3>
+                        <hr>
+                    </div>
+                    <p>- 35 3623-2253</p>
+                    <p>- Itajubá - MG</p>
+                </div>
+    
+                <div class="social">
+                    <div class="text-social">
+                        <h3>REDES SOCIAIS</h3>
+                        <hr>
+                    </div>
+                    <div class="logo-social">
+                        <a href="#"><img src="/imagens/Home/facebook.png" alt="Logo facebook"></a>
+                        <a target="_blank" href="https://www.instagram.com/aflore.selingeriee/"><img src="/imagens/Home/instagram.png" alt="Logo instagram"></a>
+                        <a target="_blank" href="http://api.whatsapp.com/send?phone=553536232253"><img src="/imagens/Home/whatsapp.png" alt="Logo whatsapp"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>    
+</body>
+</html>

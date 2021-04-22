@@ -1,0 +1,422 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo-link-whats {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    z-index: 2;
+    position: absolute;
+    position: fixed;
+}
+
+.logo-link-whats img{
+    width: 50px;
+    margin: 0 40px 20px 0;
+}
+
+.content {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #252525;
+    z-index: 3;
+}
+
+header .content-header {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .content-header .content-logo {
+    display: flex;
+    align-items: center;
+}
+
+header .content-header .content-logo img {
+    width: 70px;
+}
+
+header .content-header .content-logo .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header .content-header .content-logo .text a {
+    text-decoration: none;
+}
+
+header .content-header .content-logo .text h3 {
+    font-family: Nickainley;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    width: 100px;
+}
+
+header .content-header .content-logo .text p {
+    font-size: .7rem;
+    letter-spacing: 2px;
+    font-weight: 100;
+    text-align: center;
+    color: white;
+    width: 100px;
+}
+
+header .content-header .content-logo .text hr {
+    width: 30px;
+    align-items: center;
+    margin-top: 7px;
+    border: 1px solid #ff5757;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#bg-index {
+    width: 100vw;
+    height: 90vh;
+    background-image: url('/imagens/Home/bg.jpg');
+    background-size: cover;
+    background-position:  center;
+
+    text-align: center;
+}
+
+main #content-main {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .content-black {
+    width: 100vw;
+    height: 90vh;
+    background-color: black;
+    opacity: .6;
+    position: absolute;
+}
+
+main #content-main .content-top {
+    width: 80vw;
+    color: white;
+    z-index: 9999;
+}
+
+main #content-main .content-top h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+main #content-main .content-top h2 {
+    width: 500px;
+    font-size: 1.3rem;
+    margin-bottom: 50px;
+    font-weight: 300;
+    margin: 0 auto;
+}
+
+main #content-main .content-top hr {
+    width: 60px;
+    margin: 12px auto;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+main #content-main .content-top button {
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF5757;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 80px;
+    transition-duration: .3s;
+}
+
+main #content-main .content-top button:hover {
+    background-color: white;
+    color: black;
+    transition-duration: .3s;
+}
+
+main #content-main .content-top button:focus {
+    background-color: white;
+    color: black;
+    outline: none;
+}
+
+aside {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+aside .produtos {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+aside .produtos .text-produto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+aside .produtos .text-produto h2{
+    margin-top: 30px;
+    font-size: 1.5rem;
+    color: #363636;
+    font-weight: bold;
+}
+
+aside .produtos .text-produto hr {
+    width: 50px;
+    border: 1px solid #363636;
+    margin: 5px 0;
+}
+
+aside .produtos .imagens-produtos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+aside .produtos .imagens-produtos .fotos {
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px 0 10px;
+}
+
+aside .produtos .imagens-produtos .fotos .img1 {
+    width: 400px;
+    min-height: 500px;
+    background-image: url(/imagens/Home/lingerie1.jpeg);
+    background-size: cover;
+}
+
+aside .produtos .imagens-produtos .fotos .img2 {
+    width: 400px;
+    min-height: 500px;
+    background-image: url(/imagens/Home/lingerie1.jpeg);
+    background-size: cover;
+}
+
+aside .produtos .imagens-produtos .fotos .img3 {
+    width: 400px;
+    min-height: 500px;
+    background-image: url(/imagens/Home/lingerie1.jpeg);
+    background-size: cover;
+}
+
+aside .produtos .imagens-produtos .fotos .img4 {
+    width: 400px;
+    min-height: 500px;
+    background-image: url(/imagens/Home/lingerie1.jpeg);
+    background-size: cover;
+}
+
+aside .produtos .imagens-produtos .fotos .img5 {
+    width: 400px;
+    min-height: 500px;
+    background-image: url(/imagens/Home/lingerie1.jpeg);
+    background-size: cover;
+}
+
+aside .produtos .imagens-produtos .fotos .img6 {
+    width: 350px;
+    min-height: 500px;
+    background-image: url(/imagens/Home/lingerie1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+aside .produtos .imagens-produtos .fotos img {
+    width: 33.3vw; 
+}
+
+aside .produtos .imagens-produtos .fotos button {
+    width: 120px;
+    height: 40px;
+    border: 2px solid #FF5757;
+    border-radius: 5px;
+    background-color: #FF5757;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 20px 0 40px 0;
+    transition-duration: .3s;
+}
+
+aside .produtos .imagens-produtos .fotos button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #FF5757;
+    transition-duration: .3s;
+}
+
+aside .produtos .imagens-produtos .fotos button:focus {
+    outline: none;
+}
+
+footer {
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    background-color: #252525;
+    color: white;
+    margin-top: 50px;
+}
+
+footer .content-footer {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+footer .content-footer .inspiracao {
+    width: 33.33vw;
+    height: 12vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer .content-footer .inspiracao h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+footer .content-footer .inspiracao hr {
+    width: 50px;
+    border: 1px solid #838383;
+    margin-top: 5px;
+}
+
+footer .content-footer .inspiracao p {
+    font-size: .9rem;
+    font-weight: 300;
+    letter-spacing: .7px;
+    line-height: 1.5;
+}
+
+footer .content-footer .contato {
+    width: 33.33vw;
+    margin-left: 120px;
+    height: 12vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer .content-footer .contato h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+footer .content-footer .contato hr {
+    width: 50px;
+    border: 1px solid #838383;
+    margin-top: 5px;
+}
+
+footer .content-footer .contato p {
+    font-size: .9rem;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+footer .content-footer .social {
+    width: 200px;
+    height: 12vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer .content-footer .social h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+footer .content-footer .social hr {
+    width: 50px;
+    margin-top: 5px;
+    border: 1px solid #838383;
+}
+
+footer .content-footer .social img {
+    width: 25px;
+    margin: 10px 10px 0 0; 
+}
+
+/* Animaçoes */
+
+header, main {
+    animation-duration: 2s;
+    animation-name: transition-h1;
+}
+  
+@keyframes transition-h1 {
+    from {
+        opacity: .2;
+    }
+  
+    to {
+        opacity: 1;
+    }
+}

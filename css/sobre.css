@@ -1,0 +1,112 @@
+.content #bg-sobre {
+    background-image: url('/imagens/Sobre/bg-sobre.jpg');
+    width: 100vw;
+    height: 90vh;
+    background-size: cover;
+    background-position:  center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content #content-sobre {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    text-align: center;
+    z-index: 1;
+}
+
+.content #content-sobre .content-top-sobre {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.content #content-sobre .content-top-sobre h1{
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.content #content-sobre .content-top-sobre hr {
+    width: 80px;
+    border: 1px solid #ffffff;
+}
+
+.content #content-sobre .content-top-sobre h2 {
+    color: white;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+aside .content-aside-sobre {
+    width: 80vw;
+    margin-top: 50px;
+}
+
+aside .content-aside-sobre .text {
+    display: flex;
+}
+
+aside .content-aside-sobre .text .text-historia {
+    width: 50vw;
+}
+
+aside .content-aside-sobre .text .text-historia h3 {
+    font-size: 1.3rem;
+    color: #484B4D;
+    font-weight: 400;
+}
+
+aside .content-aside-sobre .text .text-historia hr {
+    width: 50px;
+    border: 1px solid #484B4D;
+    margin: 5px 0 20px;
+}
+
+aside .content-aside-sobre .text .text-historia p {
+    width: 40vw;
+    font-size: .9rem;
+    line-height: 1.5;
+    letter-spacing: .8px;
+    font-weight: 300;
+    color: #484B4D;
+}
+
+aside .content-aside-sobre .text .text-valores h3 {
+    font-size: 1.3rem;
+    color: #484B4D;
+    font-weight: 400;
+}
+
+aside .content-aside-sobre .text .text-valores hr {
+    width: 50px;
+    border: 1px solid #484B4D;
+    margin: 5px 0 20px;
+}
+
+aside .content-aside-sobre .text .text-valores p {
+    width: 40vw;
+    font-size: .9rem;
+    line-height: 1.5;
+    letter-spacing: .8px;
+    font-weight: 300;
+    color: #484B4D;
+}
+
+aside .content-aside-sobre .imagem {
+    margin-top: 50px;
+    width: 100vw;
+    height: 400px;
+    background-image: url('/imagens/Sobre/sobre222.jpg');
+    background-size: 100%;
+    background-position: top;
+}

@@ -1,0 +1,165 @@
+#bg-contato {
+    width: 100vw;
+    height: 90vh;
+    background-image: url('/imagens/Contato/bg-contato.jpg');
+    background-size: cover;
+    background-position:  center;
+
+    text-align: center;
+}
+
+main #content-main-contato {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main #content-main-contato .content-top-contato {
+    width: 80vw;
+    color: white;
+    z-index: 2;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main #content-main-contato .content-top-contato h1 {
+    font-size: 3rem;
+}
+
+main #content-main-contato .content-top-contato hr {
+    width: 80px;
+    margin: 5px 0;
+    border: 1px solid white;
+}
+
+main #content-main-contato .content-top-contato h2 {
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+#aside-contato {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+#aside-contato .container-aside {
+    width: 80vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 3;
+}
+
+#aside-contato .container-aside h4 {
+    font-size: 1.5rem;
+    color: #484B4D;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#aside-contato .container-aside hr {
+    width: 80px;
+    border: 1px solid #484B4D;
+    margin-top: 7px;
+}
+
+/* Formulario */
+
+#aside-contato .container-aside .formulario-contato {
+    display: flex;
+    margin-top: 50px;
+}
+
+#aside-contato .container-aside .form form {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    color: black;
+}
+
+#aside-contato .container-aside .form form label {
+    font-size: 1rem; 
+    font-weight: 400;
+    margin: 10px 0 5px 0;
+}
+
+#aside-contato .container-aside .form form input {
+    width: 500px;
+    border-radius: 3px;
+    border: 2px solid black;
+    padding: 10px;
+    outline: none;
+    font-weight: 300;
+}
+
+#aside-contato .container-aside .form form textarea {
+    width: 500px;
+    border-radius: 3px;
+    border: 2px solid black;
+    padding: 10px;
+    outline: none;
+    font-weight: 300;
+}
+
+#aside-contato .container-aside .form form #button {
+    width: 100px;
+    padding: 7px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 15px 0 30px 0;
+    color: black;
+    background: white;
+    border: 2px solid black;
+    transition: .3s;
+}
+
+#aside-contato .container-aside .form form #button:hover {
+    color: white;
+    background-color: #ff5757;
+    border: 2px solid #ff5757;
+    transition: .3s;
+}
+
+/* Contato */ 
+
+#aside-contato .container-aside .contato-social {
+    width: 400px;
+    text-align: start;
+    padding: 13px 0 0 80px;
+}
+
+#aside-contato .container-aside .contato-social a {
+    text-decoration: none;
+    color: black;
+}
+
+#aside-contato .container-aside .contato-social a:hover {
+    text-decoration: underline;
+}
+
+#aside-contato .container-aside .contato-social .dados-social h5 {
+    font-size: 1rem;
+    margin-top: 0;
+}
+
+#aside-contato .container-aside .contato-social .dados-social .margin-top {
+    margin-top: 15px;
+    font-weight: 300;
+}
+
+#aside-contato .container-aside .contato-social .logo-social-media h5 {
+    font-size: 1rem;
+    margin-top: 60px;
+}
+
+#aside-contato .container-aside .contato-social .logo-social-media img {
+    width: 25px;
+    margin: 20px 10px 0 0;
+}
